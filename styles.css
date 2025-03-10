@@ -1,0 +1,144 @@
+/* Body and General Settings */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-image: url( 'https://www.google.com/imgres?q=shen%20yun&imgurl=https%3A%2F%2Fwww.playhousesquare.org%2Fassets%2Fimg%2FShen-Yun-Thumb.png-c2441a1839.jpg&imgrefurl=https%3A%2F%2Fwww.playhousesquare.org%2Fevents%2Fdetail%2Fshen-yun-3&docid=HDms-YYX_-vIPM&tbnid=xJLd5Hn4f_wecM&vet=12ahUKEwjTvZfy5v6LAxXRMlkFHTdXBUAQM3oECEgQAA..i&w=5450&h=3967&hcb=2&ved=2ahUKEwjTvZfy5v6LAxXRMlkFHTdXBUAQM3oECEgQAA')
+    background-size: cover;
+    background-position: center;
+    color: blue;
+    text-align: center;
+    padding: 80px 0;
+    font-size: 3em;
+    text-transform: uppercase;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Ticket Form Section */
+#ticket-form {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background: linear-gradient(to bottom, #ffffff, #f9f9f9);
+}
+
+/* Hover effect for form */
+#ticket-form:hover {
+    transform: scale(1.02);
+}
+
+/* Form Titles */
+h2 {
+    font-size: 1.8em;
+    color: #4CAF50; /* Use a green color for headings */
+    margin-bottom: 20px;
+}
+
+/* Form Labels */
+label {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Form Inputs and Select Boxes */
+input, select, button {
+    font-size: 1.1em;
+    padding: 12px;
+    margin: 10px 0;
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/* Focus Effect for Input Fields */
+input:focus, select:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Purchase Summary */
+#purchase-summary {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#purchase-summary h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#summary-text {
+    color: #444;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1em;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #ticket-form {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 0.9em;
+    }
+}
+
